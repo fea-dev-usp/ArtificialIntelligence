@@ -125,12 +125,12 @@ Problemas que envolvam a necessidade  de prever se uma observação se encontra 
 Input layer -> Hidden layers -> Output 
 * Input shape: número de preditores 
 * Um output para cada possibilidade de classificação
-* Soma das probabilidades de cada categoria tem q ser igual a 1 -> usamos "softmax" como ativadora
+* Soma das probabilidades de cada categoria tem que ser igual a 1 -> usamos "softmax" como ativadora
 * Loss: Categorical cross-entropy
 
 ---
 # Observação: necessário prepar o dataset
-Presença de variáveis categoórigas -> necessário preprocessamento
+Presença de variáveis categóricas -> necessário preprocessamento
 ```python
 import pandas as pd
 from keras.utils import to_categorical
